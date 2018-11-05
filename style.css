@@ -1,0 +1,50 @@
+html { 
+    background: url(blue.jpg) fixed center no-repeat; 
+    background-size: cover;
+} /* Insert Background */
+  
+body {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;       
+} /* Font Type */
+
+h1 {
+    padding-top: 20px;
+    font-size: 4em;
+    font-weight: bold;
+    color: #eee;
+} /* Styling Title */
+
+.status{
+    font-size: 50px;      
+    font-weight: bold;
+    color: #eee;
+} /* Styling the general heading */
+
+.Statistics {
+    border-radius: 5px;
+    background-color: #eee;
+    padding: 20px 5px;
+} /* Styling the numerical data section */
+    
+input {
+    padding:10px 0px 10px 0px;
+} /* Adds Padding to the search box */
+
+label {
+    color: #eee;
+    font-size: 20px;
+} /* Styles 'City of Choice' Label */
+    
+@media screen and (max-width: 700px){ /* query for maximizing background width to fill screen and not be affected by resizing the window */
+    
+    h1 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .status{
+        font-size: 100px;      
+        font-weight: bold;
+    }
+} /* Styling for when page is being resized */
